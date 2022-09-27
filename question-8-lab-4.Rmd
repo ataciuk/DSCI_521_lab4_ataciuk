@@ -1,0 +1,40 @@
+---
+title: "question-7"
+author: "Alex Taciuk"
+date: "2022-09-27"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## First markdown text section
+_This is a markdown text section_
+
+```{block, type="alert alert-info"}
+#### Question 8 part 1
+
+1. Go back to the `.Rmd` file you created in question 7,
+   and include at least two Markdown text sections
+   (each should have a header)
+   and at least two separate code chunks in it (these can be really simple).
+   Save the new R Markdown document and give it a new meaningful name.
+
+```
+
+## Second markdown text section
+*This is another markdown text section*
+
+
+```{block, type="alert alert-info"}
+#### Question 8 part 2
+
+2. Render/knit the new R Markdown document to get an `.html` file.
+   Put the `.Rmd` document
+   and the rendered `.html` file under version control using Git,
+   and push/upload the file to your GitHub repository for this homework.
+   Paste a link to these files as your answer below.
+```
