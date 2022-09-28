@@ -1,0 +1,34 @@
+---
+title: "question-10-lab-4"
+format: revealjs
+editor: visual
+---
+
+## Slide 1
+
+This is the first slide. Stay tuned for three more.
+
+## Slide 2
+
+This is slide #2. 
+
+-   This is a point
+-   As is this
+
+## Slide 3
+
+I added echo=TRUE and include=TRUE so that the code chunk is visible
+
+```{r, inclue=TRUE, echo=TRUE}
+
+1 + 1
+```
+
+## Slide 4
+
+Finally, slide 4
+
+```{r, inclue=TRUE, echo=TRUE}
+
+print("The end")
+```
