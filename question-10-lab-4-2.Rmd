@@ -1,20 +1,28 @@
 ---
-title: "question-10-lab-4"
-format: revealjs
-editor: visual
+title: "Question-10-lab-4-2"
+author: "Alex Taciuk"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
 ## Slide 1
 
 This is the first slide. Stay tuned for three more.
-
+---
 ## Slide 2
 
-This is slide #2. 
+This is slide #2.
 
 -   This is a point
--   As is this
+-   As is this.
 
+---
 ## Slide 3
 
 I added echo=TRUE and include=TRUE so that the code chunk is visible
@@ -24,6 +32,8 @@ I added echo=TRUE and include=TRUE so that the code chunk is visible
 1 + 1
 ```
 
+---
+
 ## Slide 4
 
 Finally, slide 4
@@ -32,3 +42,4 @@ Finally, slide 4
 
 print("The end")
 ```
+
